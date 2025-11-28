@@ -46,5 +46,5 @@ predictions = friends_classifier.predict(mystery_vector)
 
 mystery_friend = predictions[0] if predictions[0] else "someone else"
 
-print("The postcard was from {}!".format(mystery_friend))
+print("Prediction: The postcard was from {}!".format(mystery_friend))
 
